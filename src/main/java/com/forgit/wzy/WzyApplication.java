@@ -8,7 +8,7 @@ public class WzyApplication {
 
     //dev
     public static void main(String[] args) {
-
+        System.out.println("master");
         System.out.println("dev");
         SpringApplication.run(WzyApplication.class, args);
     }
